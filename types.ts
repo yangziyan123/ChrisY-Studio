@@ -4,7 +4,8 @@ export enum ProjectCategory {
   // COMMERCIAL = 'Commercial',
   HUMANITIES ='humanities',
   NATURE = 'Nature',
-  URBAN = 'Urban'
+  URBAN = 'Urban',
+  AIGC = 'AIGC'
 }
 
 export interface Project {
