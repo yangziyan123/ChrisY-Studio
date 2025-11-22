@@ -1,7 +1,8 @@
 export enum ProjectCategory {
   ALL = 'All',
   PORTRAIT = 'Portrait',
-  COMMERCIAL = 'Commercial',
+  // COMMERCIAL = 'Commercial',
+  HUMANITIES ='humanities',
   NATURE = 'Nature',
   URBAN = 'Urban'
 }

@@ -68,40 +68,110 @@ export const PROJECTS: Project[] = [
   //   year: '2024'
   // },  
   {
-    id: '1',
-    title: 'Zong Zha',
-    category: ProjectCategory.PORTRAIT,
-    imageUrl: '\\photos\\DSC_1843.JPG',
-    year: '2024'
+    id: '13',
+    title: '',
+    category: ProjectCategory.HUMANITIES,
+    imageUrl: '\\photos\\DSC_2063.jpg',
+    year: '202'
   },
   {
     id: '2',
-    title: 'Xixi Li',
+    title: 'Kanroji Mitsuri Cos1',
     category: ProjectCategory.PORTRAIT,
-    imageUrl: '\\photos\\DSC_1847.JPG',
-    year: '2024'
-  },
-  {
-    id: '3',
-    title: 'Yu Xian',
-    category: ProjectCategory.PORTRAIT,
-    imageUrl: '\\photos\\DSC_1858.JPG',
-    year: '2024'
+    imageUrl: '\photos\\DSC_2863.jpg',
+    year: '2025'
   },
   {
     id: '4',
-    title: 'Qin Lao',
+    title: '',
     category: ProjectCategory.PORTRAIT,
-    imageUrl: '\\photos\\DSC_1861.JPG',
-    year: '2024'
-  }
-  // {
-  //   id: '1',
-  //   title: 'Cos',
-  //   category: ProjectCategory.PORTRAIT,
-  //   imageUrl: 'imgs\\DSC_2613.jpg',
-  //   year: '2025'
-  // },
+    imageUrl: '\\photos\\DSC_0886.JPG',
+    year: '202'
+  },
+  {
+    id: '12',
+    title: '',
+    category: ProjectCategory.HUMANITIES,
+    imageUrl: '\\photos\\DSC_2061.jpg',
+    year: '202'
+  },
+  {
+    id: '10',
+    title: '',
+    category: ProjectCategory.URBAN,
+    imageUrl: '\\photos\\DSC_2511-1.jpg',
+    year: '202'
+  },
+  {
+    id: '1',
+    title: 'Kanroji Mitsuri Cos2',
+    category: ProjectCategory.PORTRAIT,
+    imageUrl: '\photos\\DSC_2613.jpg',
+    year: '2025'
+  },
+  {
+    id: '3',
+    title: '',
+    category: ProjectCategory.PORTRAIT,
+    imageUrl: '\\photos\\DSC_0657.JPG',
+    year: '202'
+  },
+  {
+    id: '5',
+    title: '',
+    category: ProjectCategory.PORTRAIT,
+    imageUrl: '\\photos\\DSC_1805.JPG',
+    year: '202'
+  },
+  {
+    id: '6',
+    title: '',
+    category: ProjectCategory.PORTRAIT,
+    imageUrl: '\\photos\\4991e6ebdc9e35b329134a7b6b93342.jpg',
+    year: '202'
+  },
+  {
+    id: '7',
+    title: '',
+    category: ProjectCategory.PORTRAIT,
+    imageUrl: '\\photos\\DSC_3422.jpg',
+    year: '202'
+  },
+      {
+    id: '8',
+    title: '',
+    category: ProjectCategory.NATURE,
+    imageUrl: '\\photos\\default.jpeg',
+    year: '202'
+  },
+      {
+    id: '9',
+    title: '',
+    category: ProjectCategory.NATURE,
+    imageUrl: '\\photos\\DSC_0405_2.JPG',
+    year: '202'
+  },
+  {
+    id: '11',
+    title: '',
+    category: ProjectCategory.URBAN,
+    imageUrl: '\\photos\\DSC_2559-1.jpg',
+    year: '202'
+  },
+  {
+    id: '15',
+    title: 'Zombies',
+    category: ProjectCategory.HUMANITIES,
+    imageUrl: '\\photos\\DSC_1994.JPG',
+    year: '202'
+  },
+  {
+    id: '14',
+    title: '',
+    category: ProjectCategory.HUMANITIES,
+    imageUrl: '\\photos\\DSC_2467-1.jpg',
+    year: '202'
+  },
 ];
 
 export const SERVICES: ServiceItem[] = [

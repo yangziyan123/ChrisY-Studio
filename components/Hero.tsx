@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://picsum.photos/seed/studio_dark/1920/1080" 
+          src="\photos\DSC_1903.jpg" 
           alt="Background" 
           className="w-full h-full object-cover opacity-60"
         />
@@ -24,8 +24,8 @@ const Hero: React.FC = () => {
         </FadeIn>
         
         <FadeIn delay={400} direction="up">
-          <h1 className="text-5xl md:text-7xl lg:text-9xl font-serif font-semibold text-white mb-8 tracking-tight leading-none">
-            Capture <span className="italic font-light text-zinc-400">The</span> Unseen
+          <h1 className="text-4xl md:text-6xl lg:text-8xl font-serif font-semibold text-white mb-2 tracking-tight leading-tight italic">
+            Frame the Moment, Freeze Eternity
           </h1>
         </FadeIn>
 
@@ -37,17 +37,26 @@ const Hero: React.FC = () => {
         </FadeIn>
 
         <FadeIn delay={800} direction="up">
-          <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-            <Button variant="primary" onClick={() => document.getElementById('portfolio')?.scrollIntoView({behavior: 'smooth'})}>
+          <div className="flex gap-10 justify-center">
+            <Button 
+              variant="glass-dark"
+              className="basis-44"
+              onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               View Portfolio
             </Button>
-            <Button variant="outline" onClick={() => document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'})}>
+
+            <Button 
+              variant="glass-dark"
+              className="basis-44"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Get in Touch
             </Button>
           </div>
+
         </FadeIn>
       </div>
-
       {/* Scroll Indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-[1px] h-16 bg-gradient-to-b from-transparent via-white to-transparent"></div>
@@ -55,5 +64,4 @@ const Hero: React.FC = () => {
     </section>
   );
 };
-
 export default Hero;
