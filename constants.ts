@@ -1,5 +1,5 @@
 import { Project, ProjectCategory, ServiceItem, NavItem } from './types';
-import { Instagram, Twitter, Linkedin, Mail } from 'lucide-react';
+import { MessageCircleMore, Music2, Mail } from 'lucide-react';
 
 export const BRAND_NAME = "ChrisY";
 
@@ -72,7 +72,7 @@ export const PROJECTS: Project[] = [
     title: '',
     category: ProjectCategory.HUMANITIES,
     imageUrl: '\\photos\\DSC_2063.jpg',
-    year: '202'
+    year: '2024'
   },
   {
     id: '2',
@@ -93,14 +93,14 @@ export const PROJECTS: Project[] = [
     title: '',
     category: ProjectCategory.HUMANITIES,
     imageUrl: '\\photos\\DSC_2061.jpg',
-    year: '202'
+    year: '2025'
   },
   {
     id: '10',
     title: '',
     category: ProjectCategory.URBAN,
     imageUrl: '\\photos\\DSC_2511-1.jpg',
-    year: '202'
+    year: '2025'
   },
   {
     id: '1',
@@ -114,114 +114,114 @@ export const PROJECTS: Project[] = [
     title: '',
     category: ProjectCategory.PORTRAIT,
     imageUrl: '\\photos\\DSC_0657.JPG',
-    year: '202'
+    year: '2025'
   },
   {
     id: '5',
     title: '',
     category: ProjectCategory.PORTRAIT,
     imageUrl: '\\photos\\DSC_1805.JPG',
-    year: '202'
+    year: '2025'
   },
   {
     id: '6',
     title: '',
     category: ProjectCategory.PORTRAIT,
     imageUrl: '\\photos\\4991e6ebdc9e35b329134a7b6b93342.jpg',
-    year: '202'
+    year: '2025'
   },
   {
     id: '7',
     title: '',
     category: ProjectCategory.PORTRAIT,
     imageUrl: '\\photos\\DSC_3422.jpg',
-    year: '202'
+    year: '2025'
   },
       {
     id: '8',
     title: '',
     category: ProjectCategory.NATURE,
     imageUrl: '\\photos\\default.jpeg',
-    year: '202'
+    year: '2025'
   },
       {
     id: '9',
     title: '',
     category: ProjectCategory.NATURE,
     imageUrl: '\\photos\\DSC_0405_2.JPG',
-    year: '202'
+    year: '2025'
   },
   {
     id: '11',
     title: '',
     category: ProjectCategory.URBAN,
     imageUrl: '\\photos\\DSC_2559-1.jpg',
-    year: '202'
+    year: '2025'
   },
   {
     id: '15',
     title: 'Zombies',
     category: ProjectCategory.HUMANITIES,
     imageUrl: '\\photos\\DSC_1994.JPG',
-    year: '202'
+    year: '2025'
   },
   {
     id: '14',
     title: '',
     category: ProjectCategory.HUMANITIES,
     imageUrl: '\\photos\\DSC_2467-1.jpg',
-    year: '202'
+    year: '2025'
   },
 ];
 
 export const SERVICES: ServiceItem[] = [
   {
-    id: 'basic',
-    title: 'Essential Portrait',
-    price: '$299',
-    description: 'Perfect for individuals looking for professional headshots or social media content.',
+    id: 'portrait-starter',
+    title: 'Portrait Starter',
+    price: '￥159',
+    description: 'Ideal for individuals seeking a high-quality portrait session for social media or personal use.',
     features: [
-      '1 Hour Session',
-      '1 Location',
-      '10 Retouched Images',
-      'Online Gallery',
-      'Print Rights'
+      '1-hour session',
+      '1 location (studio or outdoor)',
+      '8 retouched high-resolution images',
+      'Online gallery download',
+      'Personal use rights (non-commercial)'
     ]
   },
   {
-    id: 'standard',
-    title: 'Brand Narrative',
-    price: '$899',
-    description: 'Comprehensive coverage for brands and small businesses to tell their story.',
+    id: 'portrait-deluxe',
+    title: 'Portrait Deluxe',
+    price: '￥399',
+    description: 'A refined portrait experience for individuals wanting variety in style and setting.',
     popular: true,
     features: [
-      '3 Hour Session',
-      '2 Locations',
-      '40 Retouched Images',
-      'Style Consultation',
-      'Commercial License',
-      'Priority Editing'
+      '2-hour session',
+      'Up to 2 locations (indoor + outdoor)',
+      '20 retouched high-resolution images',
+      'Style/consultation prior to shoot',
+      'Online gallery download',
+      'Personal & small-business commercial use rights'
     ]
   },
   {
-    id: 'premium',
-    title: 'Full Editorial',
-    price: '$1,999',
-    description: 'A complete production experience for high-end campaigns and editorial spreads.',
+    id: 'portrait-premium',
+    title: 'Portrait Premium',
+    price: '￥1,499',
+    description: 'The full-scale portrait production for models, brands, or premium personal branding needs.',
     features: [
-      'Full Day Coverage',
-      'Studio + On-location',
-      'Unlimited Edits',
-      'Hair & Makeup Artist',
-      'Creative Direction',
-      'Same-day Teasers'
+      'Half-day session (approx. 5 hours)',
+      'Studio + outdoor + optional hair & makeup artist',
+      'Unlimited location choice (or multiple settings)',
+      '50 retouched high-resolution images (or full-set retouched)',
+      'Same-day teaser preview',
+      'Online gallery + curated USB or premium print package',
+      'Full commercial usage rights (branding / modelling)'
     ]
   }
 ];
 
 export const SOCIAL_LINKS = [
-  { platform: 'Instagram', url: '#', icon: Instagram },
-  { platform: 'Twitter', url: '#', icon: Twitter },
-  { platform: 'LinkedIn', url: '#', icon: Linkedin },
-  { platform: 'Email', url: 'mailto:hello@chrisy.studio', icon: Mail },
+  { platform: 'WeChat', url: '#', icon: MessageCircleMore, type: 'wechat' },
+  { platform: 'Douyin', url: '#', icon: Music2, type: 'douyin' },
+  { platform: 'Email', url: 'mailto:yangziyan0708@foxmail.com', icon: Mail, type: 'email' },
 ];
