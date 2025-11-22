@@ -11,62 +11,97 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const PROJECTS: Project[] = [
+  // {
+  //   id: '1',
+  //   title: 'Ethereal Gaze',
+  //   category: ProjectCategory.PORTRAIT,
+  //   imageUrl: 'https://picsum.photos/seed/chris1/800/1000',
+  //   year: '2024'
+  // },
+  // {
+  //   id: '2',
+  //   title: 'Urban Solitude',
+  //   category: ProjectCategory.URBAN,
+  //   imageUrl: 'https://picsum.photos/seed/chris2/800/600',
+  //   year: '2023'
+  // },
+  // {
+  //   id: '3',
+  //   title: 'Mountain Mist',
+  //   category: ProjectCategory.NATURE,
+  //   imageUrl: 'https://picsum.photos/seed/chris3/800/1000',
+  //   year: '2024'
+  // },
+  // {
+  //   id: '4',
+  //   title: 'Noir Fashion',
+  //   category: ProjectCategory.COMMERCIAL,
+  //   imageUrl: 'https://picsum.photos/seed/chris4/800/800',
+  //   year: '2023'
+  // },
+  // {
+  //   id: '5',
+  //   title: 'Neon Nights',
+  //   category: ProjectCategory.URBAN,
+  //   imageUrl: 'https://picsum.photos/seed/chris5/800/1000',
+  //   year: '2024'
+  // },
+  // {
+  //   id: '6',
+  //   title: 'Silent Waters',
+  //   category: ProjectCategory.NATURE,
+  //   imageUrl: 'https://picsum.photos/seed/chris6/800/600',
+  //   year: '2023'
+  // },
+  // {
+  //   id: '7',
+  //   title: 'Golden Hour',
+  //   category: ProjectCategory.PORTRAIT,
+  //   imageUrl: 'https://picsum.photos/seed/chris7/800/1000',
+  //   year: '2024'
+  // },
+  // {
+  //   id: '8',
+  //   title: 'Product Minimal',
+  //   category: ProjectCategory.COMMERCIAL,
+  //   imageUrl: 'https://picsum.photos/seed/chris8/800/800',
+  //   year: '2024'
+  // },  
   {
     id: '1',
-    title: 'Ethereal Gaze',
+    title: 'Zong Zha',
     category: ProjectCategory.PORTRAIT,
-    imageUrl: 'https://picsum.photos/seed/chris1/800/1000',
+    imageUrl: '\\photos\\DSC_1843.JPG',
     year: '2024'
   },
   {
     id: '2',
-    title: 'Urban Solitude',
-    category: ProjectCategory.URBAN,
-    imageUrl: 'https://picsum.photos/seed/chris2/800/600',
-    year: '2023'
+    title: 'Xixi Li',
+    category: ProjectCategory.PORTRAIT,
+    imageUrl: '\\photos\\DSC_1847.JPG',
+    year: '2024'
   },
   {
     id: '3',
-    title: 'Mountain Mist',
-    category: ProjectCategory.NATURE,
-    imageUrl: 'https://picsum.photos/seed/chris3/800/1000',
+    title: 'Yu Xian',
+    category: ProjectCategory.PORTRAIT,
+    imageUrl: '\\photos\\DSC_1858.JPG',
     year: '2024'
   },
   {
     id: '4',
-    title: 'Noir Fashion',
-    category: ProjectCategory.COMMERCIAL,
-    imageUrl: 'https://picsum.photos/seed/chris4/800/800',
-    year: '2023'
-  },
-  {
-    id: '5',
-    title: 'Neon Nights',
-    category: ProjectCategory.URBAN,
-    imageUrl: 'https://picsum.photos/seed/chris5/800/1000',
-    year: '2024'
-  },
-  {
-    id: '6',
-    title: 'Silent Waters',
-    category: ProjectCategory.NATURE,
-    imageUrl: 'https://picsum.photos/seed/chris6/800/600',
-    year: '2023'
-  },
-  {
-    id: '7',
-    title: 'Golden Hour',
+    title: 'Qin Lao',
     category: ProjectCategory.PORTRAIT,
-    imageUrl: 'https://picsum.photos/seed/chris7/800/1000',
+    imageUrl: '\\photos\\DSC_1861.JPG',
     year: '2024'
-  },
-  {
-    id: '8',
-    title: 'Product Minimal',
-    category: ProjectCategory.COMMERCIAL,
-    imageUrl: 'https://picsum.photos/seed/chris8/800/800',
-    year: '2024'
-  },
+  }
+  // {
+  //   id: '1',
+  //   title: 'Cos',
+  //   category: ProjectCategory.PORTRAIT,
+  //   imageUrl: 'imgs\\DSC_2613.jpg',
+  //   year: '2025'
+  // },
 ];
 
 export const SERVICES: ServiceItem[] = [
